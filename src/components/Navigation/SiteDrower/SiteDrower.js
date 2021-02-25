@@ -6,7 +6,9 @@ import classes from './SiteDrower.css'
 
 const siteDrower = (props) => (
     <div className={classes.SiteDrower}>
-        <Logo></Logo>
+        <div className={classes.Logo}>
+            <Logo></Logo>
+        </div>
         <nav>
             <NavigationItems></NavigationItems>
         </nav>
