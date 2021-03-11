@@ -3,7 +3,7 @@ import Logo from '../../Logo/Logo'
 import NavigationItems from '../NavigationsItems/NavigationItems'
 import classes from './SiteDrower.css'
 import Backdrop from '../../UI/Modal/Backdrop/Backdrop'
-import Aux from '../../../hoc/Auxe'
+import Aux from '../../../hoc/Auxe/Auxe'
 
 
 const siteDrower = (props) => {
